@@ -23,9 +23,12 @@
   max-width: 80%;
 }
   
+
+
+
 audio {
-  position: fixed;
-    top: 60%;
+    position: fixed;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 99999;
@@ -44,6 +47,26 @@ audio {
 
     transform: translate(-50%, -50%) scale(2.5);
     transform-origin: center;
+
+}
+
+.titulo-flotante {
+  position: fixed;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 99997;
+  font-family: 'Georgia', serif;
+  font-size: 5rem;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 30px rgba(255, 255, 0, 0.2);
+  pointer-events: none;
+  text-align: center;
+  width: max-content;
+  max-width: 90vw;
+  font-family: 'Pixelify Sans', sans-serif;
 }
 
 :root {
